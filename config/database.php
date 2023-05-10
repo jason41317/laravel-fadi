@@ -36,7 +36,7 @@ return [
     'connections' => [
         'mongodb' => [
             'driver' => 'mongodb',
-            'dsn' => env('DB_URI', 'mongodb+srv://patawaranjason17:9Rt1tqLG6zK0YANe@fadi.1plxxvx.mongodb.net/'),
+            'dsn' => env('DB_URI'),
             'database' => 'fadi',
         ],
 
